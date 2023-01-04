@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+h1{
+    font-family: 'Exo',sans-serif;
+}
+
+.col-md-4 {
+    background-color: lightblue;
+}
+
+.col-md-8 {
+    background-color: lightcoral;
+}
+
+.row{
+    height: 75vh;
+}
+
+.logo{
+    background: url(../images/rosie.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
